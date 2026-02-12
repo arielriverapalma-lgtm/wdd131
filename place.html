@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ariel Rivera">
+    <meta name="description" content="Discover Frailes Beach in Ecuador, a beautiful destination in Machalilla National Park with stunning landscapes and warm climate.">
+    <title>Place of my country </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="Weather.html">Weather</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+<main>
+   <section class="hero">
+     <h1>The beutifull place in my country <b>Frailes Beach</b></h1>
+     <picture>
+        <source
+         srcset= "images/frailes_small.webp"
+            media="(max-width: 600px)">
+
+        <source 
+         srcset= "images/frailes2.webp"
+            media="(max-width: 601px)">
+
+        <img
+         src="images/frailes2.webp" alt="Frailes Beach" loading="lazy">
+           
+     </picture>
+
+
+    <p>excellent tour to discover the wonders of Machalilla National Park.
+Los Frailes Beach features three consecutive beaches, ranging from white sand to black sand. It has received several awards and is considered one of the most beautiful beaches in Ecuador. Enjoy scenic walking trails, breathtaking viewpoints, as well as the waves and rich marine diversity.
+
+The Agua Blanca community, located in the heart of the tropical dry forest, is one of the best-preserved archaeological sites within Machalilla National Park. The visit includes entrance to the archaeological museum, a guided walk through the archaeological areas, where you can observe funerary urns from the Manteña–Huancavilca culture, and a walk through the dry forest, home to mot-mot birds and squirrels.
+
+The tour concludes with a visit to the sulfur-rich medicinal lagoon of Agua Blanca, renowned for its therapeutic and health benefits.
+
+Enjoy, relax, and have an unforgettable experience!</p>
+   </section >
+
+   <section class="weather">
+    <h3>Weather</h3>
+    <p>Frailes Beach enjoys a warm tropical climate year-round, with average temperatures ranging from <b>24°C to 30°C (75°F to 86°F)</b>. The dry season, from June to December, is the best time to visit, offering sunny skies and minimal rainfall. The wet season, from January to May, brings occasional showers but also lush greenery and vibrant wildlife. Visitors should pack light clothing, sunscreen, and insect repellent to ensure a comfortable stay.</p> 
+    <p>Temperature: <span id="temp">6</span> C°</p>
+    <p>Wind Speed: <span id="wind">8</span>km/h</p>
+    <p>Wind chill:  <span id="chill"></span></p>
+    
+   </section>
+</main>
+
+
+<footer>
+    <p>&copy;<span id="year"></span> Ariel Rivera | Ecuador</p>
+
+</footer>
+    
+
+<script src="js/place.js"></script>
+    
+</body>
+   
+
+
+</html>
